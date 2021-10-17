@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import './App.scss'
+import Hero from './components/Hero'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Testemonies from './components/Testemonies'
+import Footer from './components/Footer'
 
 function App() {
+  AOS.init()
+  const [dark, setDark] = useState(false)
+
+  const toggleTheme = () => {
+    setDark(!dark)
+    console.log(dark)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {dark ? (
+        <div className='light'>
+          <Hero toggleTheme={toggleTheme} />
+          <About />
+          <Projects />
+          <Contact />
+          <Testemonies />
+          <Footer />
+        </div>
+      ) : (
+        <div className='dark'>
+          <Hero toggleTheme={toggleTheme} />
+          <About />
+          <Projects />
+          <Contact />
+          <Testemonies />
+          <Footer />
+        </div>
+      )}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
