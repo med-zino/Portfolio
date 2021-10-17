@@ -36,7 +36,7 @@ const data = {
       category: 'personal website',
       discription:
         'A portfolio realised by me using React and sass . consisted of dark and light mode , some packages are used such as mailjs',
-      url: 'portfolio.png',
+      url: 'portfolio.jpg',
       actions: [
         {
           tit: 'github',
@@ -50,7 +50,7 @@ const data = {
       category: 'E comerce',
       discription:
         'A renting company sturtup page . build with html css boostrap vanilla js for the company divvin',
-      url: 'Div.png',
+      url: 'Div.jpg',
       actions: [
         {
           tit: 'demo version ',
@@ -64,7 +64,7 @@ const data = {
       category: 'E-health',
       discription:
         'a medical platform build with react , typescript , sass sql and nestJs and dockerised',
-      url: 'Med.png',
+      url: 'Med.jpg',
       actions: [
         {
           tit: 'preview',
@@ -111,7 +111,7 @@ const data = {
       category: 'E-comerce',
       discription:
         'An E comerce website built with htl , css, js and MDB library . consisted of admin dashboard and client side',
-      url: 'store.png',
+      url: 'store.jpg',
       actions: [
         {
           tit: 'youtube',
