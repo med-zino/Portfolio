@@ -1,3 +1,21 @@
+# About this portfolio 
+this is a portfolio build using react and sass . it is consisted of both dark and light mode build from scratch and it is fully responsive with some cool animations effects. it contains a description , about me section , portfolio for your projects , a contact me for , and a testemonies section
+
+
+# About this portfolio 
+
+
+
+
+
+![1](https://user-images.githubusercontent.com/52724105/137980907-95382aae-e33f-43f0-81b6-8d899f3123fb.PNG)
+
+![2](https://user-images.githubusercontent.com/52724105/137980927-91d89b99-eb0e-40a4-88a1-bd138b9c4bb5.PNG)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
