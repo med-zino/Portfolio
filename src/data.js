@@ -40,7 +40,7 @@ const data = {
       actions: [
         {
           tit: 'github',
-          link: '',
+          link: 'https://github.com/med-zino/Portfolio',
         },
       ],
       actions2: [],
