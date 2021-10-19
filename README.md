@@ -12,6 +12,7 @@ this is a portfolio build using react and sass . it is consisted of both dark an
 
 ![2](https://user-images.githubusercontent.com/52724105/137980927-91d89b99-eb0e-40a4-88a1-bd138b9c4bb5.PNG)
 
+![3](https://user-images.githubusercontent.com/52724105/137981063-67ff3685-f33a-4846-b37b-e8af3dbd2b91.PNG)
 
 
 
