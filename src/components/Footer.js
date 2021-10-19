@@ -37,32 +37,34 @@ function Footer(props) {
             </div>
           </Col>
           <Col md='3'>
-            <a href='#contact'>
-              <FontAwesomeIcon icon={faEnvelope} className='social' />
-            </a>
+            <div className='ligne'>
+              <a href='#contact'>
+                <FontAwesomeIcon icon={faEnvelope} className='social' />
+              </a>
 
-            <a
-              href='https://www.facebook.com/zinou.med.35/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FontAwesomeIcon icon={faFacebook} className='social' />
-            </a>
-            <a
-              href='https://www.linkedin.com/in/feddag-mohammed-zineddine-879861187/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FontAwesomeIcon icon={faLinkedin} className='social' />
-            </a>
+              <a
+                href='https://www.facebook.com/zinou.med.35/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FontAwesomeIcon icon={faFacebook} className='social' />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/feddag-mohammed-zineddine-879861187/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FontAwesomeIcon icon={faLinkedin} className='social' />
+              </a>
 
-            <a
-              href='https://github.com/med-zino'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FontAwesomeIcon icon={faGithub} className='social' />
-            </a>
+              <a
+                href='https://github.com/med-zino'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <FontAwesomeIcon icon={faGithub} className='social' />
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>

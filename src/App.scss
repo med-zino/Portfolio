@@ -31,7 +31,6 @@ a {
   * {
     transition: background-color 1s ease-in-out;
   }
-  transition: background-color 1s ease-in-out;
   //////////////////////////
   // hero section
   .dropdown-menu.show {
@@ -49,13 +48,22 @@ a {
     padding-top: 50px;
     padding-bottom: 20px;
     color: $ClrLight;
+    .col-md-3 {
+      display: flex;
+      text-align: center;
+      margin-bottom: 5px;
+    }
     .social {
-      font-size: 40px;
+      font-size: 33px;
       margin-right: 20px;
       cursor: pointer;
+      :hover {
+        color: $ClrBlue;
+      }
     }
     .ligne {
       display: flex;
+      margin: 0 auto;
       svg {
         margin-right: 12px;
       }
@@ -394,9 +402,13 @@ a {
     padding-bottom: 20px;
     .social {
       cursor: pointer;
-      font-size: 40px;
+      font-size: 33px;
       margin-right: 20px;
+      :hover {
+        color: $ClrBlue;
+      }
     }
+
     .ligne {
       display: flex;
       svg {
