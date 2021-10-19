@@ -2,7 +2,11 @@
 this is a portfolio build using react and sass . it is consisted of both dark and light mode build from scratch and it is fully responsive with some cool animations effects. it contains a description , about me section , portfolio for your projects , a contact me for , and a testemonies section
 
 
-# About this portfolio 
+
+
+
+
+# Screen shots
 
 
 
