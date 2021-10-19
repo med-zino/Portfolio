@@ -28,6 +28,10 @@ a {
   }
 }
 .light {
+  * {
+    transition: background-color 1s ease-in-out;
+  }
+  transition: background-color 1s ease-in-out;
   //////////////////////////
   // hero section
   .dropdown-menu.show {
@@ -318,7 +322,7 @@ a {
       margin-right: 20px;
       font-weight: 500;
       border-bottom: $ClrDark 1px solid;
-
+      cursor: pointer;
       &:hover {
         border-bottom: $ClrBlue 1px solid;
         color: $ClrBlue;
@@ -368,6 +372,9 @@ a {
 .dark {
   //////////////////////////
   // hero section
+  * {
+    transition: background-color 1s ease-in-out;
+  }
   background-color: $ClrDark;
   color: $ClrLight;
   .dropdown-menu.show {
@@ -670,6 +677,7 @@ a {
       margin-right: 20px;
       font-weight: 500;
       border-bottom: $ClrDark-2 1px solid;
+      cursor: pointer;
       &:hover {
         border-bottom: $ClrBlue 1px solid;
         color: $ClrBlue;
