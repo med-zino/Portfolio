@@ -17,7 +17,7 @@ const data = {
     {
       name: 'Skills',
       describe:
-        'Html5 , Css3 , Sass , Javascript ,Typescript , React.js , React redux , Bootstrap , MDB , Firebase , JAVA , Git/Github/Github actions , Figma for web design , Uml diagrams',
+        'React.js , node , React redux ,MongoDb , MySql , ExpressJs , Html5 , Css3 , Sass , Javascript , Docker , Typescript , Bootstrap , MDB , Firebase , JAVA , Git/Github/Github actions , Figma for web design , Uml diagrams',
     },
     {
       name: 'Experience',
